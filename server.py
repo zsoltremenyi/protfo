@@ -24,7 +24,7 @@ def write_database(data):
 
 
 def write_to_csv(data):
-    with open('database.csv', 'a', newline='') as my_data2:
+    with open('/home/JulesLancz/protfo/database.csv', 'a', newline='') as my_data2:
         email = data['email']
         subject = data['subject']
         message = data['message']
